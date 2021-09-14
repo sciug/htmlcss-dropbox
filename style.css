@@ -172,6 +172,7 @@ BUSINESS SEC
 .business{
     width:60%;
     margin:15rem auto;
+    margin-bottom: 0;
 }
 .business_title{
     font-size:2.2rem;
@@ -360,4 +361,48 @@ PARTNER SEC
     color: #181818;
     border: 1px solid #181818;
     font-weight: 600;
+}
+
+
+/* 
+
+PARTNER SEC
+
+*/
+
+
+
+
+/* 
+
+operation SEC
+
+*/
+
+.operations{
+    margin-top: 5rem;
+}
+
+.ops_col{
+    width:30%
+}
+.ops_col_center{
+    margin: 0 5%;
+}
+.ops_col h3{
+    font-weight: 800;
+    font-size: 1.3rem;
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+
+.ops_col p{
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+.second_row{
+    margin-top:5rem;
 }
