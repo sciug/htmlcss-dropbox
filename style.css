@@ -108,7 +108,7 @@ HERO SEC
 .hero_sec{
     background-color: #b4d0e7;
     padding-top:4rem;
-    padding-bottom:10rem;
+    padding-bottom:6rem;
 }
 
 .hero_sec_wrapper{
@@ -146,5 +146,13 @@ HERO SEC
     margin-bottom: 2rem;
     font-weight: 600;
     font-size: .9rem;
+    width: 350px;
 
+}
+.hero_btn{
+    margin-bottom: .5rem;
+}
+.fa-arrow-down{
+    margin-top:1rem;
+    font-size: 2.3rem;
 }
