@@ -25,6 +25,10 @@ HEADER
 
 #site_header{
     padding: 1rem;
+    position: fixed;
+    z-index: 10000000;
+    width: 100%;
+    background-color: white;
 }
 
 
@@ -103,20 +107,44 @@ HERO SEC
 *******************/
 .hero_sec{
     background-color: #b4d0e7;
+    padding-top:4rem;
+    padding-bottom:10rem;
 }
 
 .hero_sec_wrapper{
     width:80%;
     margin:auto;
+    padding-top: 5rem;
 }
+
+.hero_sec_content{margin-top: 3rem;}
+
 
 .hero-sec_mainContent, .hero_sec_img{
     float: left;
 }
 
 .hero-sec_mainContent{
-    width: 40%;
+    width: 35%;
 }
+
+
 .hero_sec_img{
     width: 60%;
+    position: relative;
+}
+
+.jumbo{
+    position:absolute;}
+
+.hero_sec_title{
+    font-size: 4.3rem;
+    font-weight: 700;
+}
+
+.hero-sec_text{
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: .9rem;
+
 }
