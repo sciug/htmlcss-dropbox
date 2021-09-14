@@ -171,7 +171,7 @@ BUSINESS SEC
 *******************/
 .business{
     width:60%;
-    margin:15rem auto;
+    margin:auto;
     margin-bottom: 0;
 }
 .business_title{
@@ -405,4 +405,201 @@ operation SEC
 
 .second_row{
     margin-top:5rem;
+}
+
+
+/* 
+
+operation SEC
+
+*/
+
+
+
+
+/* 
+
+TEAMS SEC
+
+*/
+
+.teams .business_title{ 
+    width: 530px;
+}
+/* square{
+    width: 16%;
+    height: 243px;
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+.square_long{
+    width:36%;
+    height: 243px;
+    background-color: #f5f5f5;
+    padding: 2rem;
+}
+
+.square_long p{
+    position: absolute;
+    width:450px;
+}
+
+.squareOne{
+    background-image: url(./img/designit.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #a2d39b;
+}
+.squareTwo{
+    background-image: url(./img/arizona_state_university.svg);
+    background-color: #61082b;
+}
+.squareFour{background-color: #d5001f;
+background-image: url(./img/world_bicycle_relief.svg);}
+.squareFive{background-color: #b4d0e7;
+background-image: url(./img/hearst_corp.svg);}
+.squareSix{
+    background-color: #0093ce;
+    background-image: url(./img/university_of_florida2.svg);
+}
+.squareSeven{
+    background-color: #ff1c1c;
+    background-image: url(./img/topps.svg);
+}
+
+.squareNine{
+    background-color: #0d2481;
+    background-image: url(./img/lonely_planet.svg);
+}
+.squareTen{
+    background-color: #ffd830;
+    background-image: url(./img/clear_channel.svg);
+   
+
+}
+
+ */
+
+
+ .square_big, .rectangle{
+     float: left;
+     height: 400px;
+ }
+ .square_big{width:30%;
+}
+
+ .rectangle{width: 40%;
+    background-color: rgb(250, 246, 246);
+    padding: 2rem;
+    position: relative;
+
+}
+
+
+.rec_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 80%;
+}
+
+
+
+.little_square{
+width:50%;
+float: left;
+height: 50%;}
+
+.squareOne{background-color: #a2d39b;
+}
+
+.squareTwo{
+    background-color: #61082b;
+}
+.squareThree{background-color: #d5001f;
+  }
+
+.squareFour{background-color: #0093ce;
+}
+
+
+
+
+
+.free_trail{
+    background-color: hsl(207deg 52% 81%);
+}
+
+.free_trail .business{
+    padding:6rem 0;}
+
+
+.free_trail h2{
+    color: #61082b;
+    width:530px;
+}
+
+.free_trail_btn{
+    text-align: right;
+    width: 30%;
+}
+
+.btn_white{
+    background-color: white;
+    color: #181818;
+    font-weight: 700;
+}
+
+
+.questions{
+    margin-top: 5rem;
+}
+.questions_title{
+    font-size:1.8rem;
+    font-weight: 800;
+    padding-bottom: 3.5rem;
+    border-bottom: 1px solid #b4d0e7;
+
+}
+
+.answer{margin-top: 2rem;
+padding-bottom: 2rem;
+border-bottom: 1px solid #b4d0e7;}
+
+.answer .answer_title{
+    width:95%;
+   font-weight: 800;
+    
+}
+
+.arrow_down{
+    text-align: right;
+    width:5%;
+
+}
+
+.arrow_up{display: none;}
+
+.answer_text{display: none;}
+
+.answer:hover .answer_text{
+    display:block;
+}
+.answer:hover .answer_title{
+    margin-bottom: 1rem;
+
+    }
+
+
+.answer:hover .arrow_up{
+    display: block;
+    text-align: right;
+    width:5%;
+}
+
+.answer:hover .arrow_down{
+    display: none;
 }
