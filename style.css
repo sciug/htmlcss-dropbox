@@ -184,10 +184,21 @@ BUSINESS SEC
 .label{margin-right: 2rem;}
 
 
+.business_plan{
+    margin-top: 3rem;
+}
+
 .col{float: left;
-width: 33%;
+width: 30%;
 border: 1px solid rgb(196, 196, 196);
 }
+.long_col{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+.center{margin:0 5%}
 
 .business_plan_quantity{
     padding:.5rem;
@@ -233,6 +244,24 @@ border: 1px solid rgb(196, 196, 196);
     color:rgb(131, 130, 130);
     font-size: .8rem;
 }
+
+.long_col .business_plan_type_info p{
+    color:#181818;
+    margin-top: 1.5rem;
+}
+.long_col .business_plan_type_info{width: 65%;}
+
+.long_col_btn{
+    width:35%;
+    text-align: right;
+}
+
+.long_col_btn .btn{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+
 
 .business_plan_services{
     margin-top:2rem
@@ -295,8 +324,3 @@ font-size: .75rem;}
 }
 
 
-.col_2,.col_3{
-    height:300px;
-    background-color: red;
-}
-.col_3{background-color: violet;}
