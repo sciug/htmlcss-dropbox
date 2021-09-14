@@ -11,8 +11,15 @@
     display: table;
     clear: both;
 }
-/*
-*******************
+
+img{width: 100%;}
+
+
+
+
+
+
+/********************
 HEADER 
 *******************/
 
@@ -82,4 +89,34 @@ HEADER
     font-size:.8rem;
     background-color: #0061ff;
     color: white;
+}
+
+/********************
+HEADER 
+*******************/
+
+
+
+
+/********************
+HERO SEC 
+*******************/
+.hero_sec{
+    background-color: #b4d0e7;
+}
+
+.hero_sec_wrapper{
+    width:80%;
+    margin:auto;
+}
+
+.hero-sec_mainContent, .hero_sec_img{
+    float: left;
+}
+
+.hero-sec_mainContent{
+    width: 40%;
+}
+.hero_sec_img{
+    width: 60%;
 }
