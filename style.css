@@ -556,6 +556,7 @@ height: 50%;}
 
 .questions{
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 .questions_title{
     font-size:1.8rem;
@@ -567,7 +568,8 @@ height: 50%;}
 
 .answer{margin-top: 2rem;
 padding-bottom: 2rem;
-border-bottom: 1px solid #b4d0e7;}
+border-bottom: 1px solid #b4d0e7;
+cursor: pointer;}
 
 .answer .answer_title{
     width:95%;
@@ -602,4 +604,33 @@ border-bottom: 1px solid #b4d0e7;}
 
 .answer:hover .arrow_down{
     display: none;
+}
+
+
+/* FOOTER */
+#site_footer{
+    color: white;
+    background-color: #000000;
+}
+
+.footer_info{
+    width:20%;
+    padding:1rem;
+}
+
+.footer_info h4{
+    margin-bottom: 1rem;
+}
+
+.footer_info ul{
+    list-style: none;
+}
+
+.footer_info ul li{
+    margin-bottom: .5rem;
+}
+.footer_info ul li a{
+    font-size: .75rem;
+    color: white;
+    text-decoration: none;
 }
