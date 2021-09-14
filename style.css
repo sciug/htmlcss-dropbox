@@ -156,3 +156,147 @@ HERO SEC
     margin-top:1rem;
     font-size: 2.3rem;
 }
+
+/********************
+HERO SEC 
+*******************/
+
+
+
+
+
+
+/********************
+BUSINESS SEC 
+*******************/
+.business{
+    width:60%;
+    margin:15rem auto;
+}
+.business_title{
+    font-size:2.2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+
+
+.label{margin-right: 2rem;}
+
+
+.col{float: left;
+width: 33%;
+border: 1px solid rgb(196, 196, 196);
+}
+
+.business_plan_quantity{
+    padding:.5rem;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    text-align: center;
+}
+.icon_margin_right{
+    margin-right: 5px;
+}
+
+.business_plan_quantity p{
+    font-weight: 600;
+}
+
+
+
+
+
+.business_plan_type{
+    padding: 1.5rem;
+}
+
+.business_plan_type_info h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.business_plan_type_info h4{
+    font-weight: 800;
+    margin-bottom: .5rem;
+
+}
+
+.business_plan_type p{
+    width: 90%;
+    font-size:.8rem;
+    font-weight: 600;
+}
+
+
+.business_plan_type_info p{
+    color:rgb(131, 130, 130);
+    font-size: .8rem;
+}
+
+.business_plan_services{
+    margin-top:2rem
+}
+
+.business_plan_services_info .info{
+    margin-bottom: 2rem;
+}
+
+
+.business_plan_services_info .info p{ 
+}
+
+
+.call_to_action_try p{margin-top: 1rem;
+font-size: .75rem;}
+
+
+
+.float{
+    float: left;
+}
+
+.main_points{
+    margin-top:1rem;
+}
+
+.main_points::before{
+    content: '';
+     display: block;
+    width: 40px;
+    height: 1px;
+    background:#b4d0e7;
+
+}
+
+
+.main_points h5{
+    font-size:.9rem;
+    font-weight: 800;
+    padding-top:2rem;
+  
+    margin-bottom: 1.5rem;
+}
+
+
+.main_points ul{
+    list-style: none;
+}
+
+.main_points ul li{
+    font-size:.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.fa-check{
+    color: #0061ff;
+    font-size: .8rem;
+}
+
+
+.col_2,.col_3{
+    height:300px;
+    background-color: red;
+}
+.col_3{background-color: violet;}
