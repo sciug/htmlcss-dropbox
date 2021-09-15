@@ -24,7 +24,7 @@ HEADER
 *******************/
 
 #site_header{
-    padding: 1rem;
+    padding:0 1rem;
     position: fixed;
     z-index: 10000000;
     width: 100%;
@@ -45,6 +45,11 @@ HEADER
     float: left;
 }
 
+.img_wrapper{
+    padding-bottom: 2rem;
+    vertical-align: bottom;
+}
+
 .logo_img{
     height: 25px;
     vertical-align: middle;
@@ -57,10 +62,24 @@ HEADER
 
 #site_header nav, .img_wrapper, #site_header ul li{
     display: inline-block;
-    vertical-align: middle;
+      
     
 
 }
+
+#site_header ul li{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    transition: all 250ms;
+}
+
+
+
+#site_header ul li:hover{
+    box-shadow:#181818 0px 2px 0px;
+}
+
+
 
 .nav_link{
     text-decoration: none;
