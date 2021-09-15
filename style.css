@@ -243,7 +243,9 @@ BUSINESS SEC
     margin-top: 10rem;
 }
 
-
+.padding-top{
+    padding-top: 10rem;
+}
 .business_title{
     font-size:2.2rem;
     font-weight: 800;
@@ -412,6 +414,9 @@ PARTNER SEC
 
 .partners{
     margin-top: 8rem;
+}
+.partners_funzioni{
+    margin-top:0rem;
 }
 
 .partner_img {
@@ -777,4 +782,42 @@ cursor: pointer;}
     border-top: 1px solid white;
     padding-top: 3rem;
     margin-top: 6rem;
+}
+
+
+/* FUNZIONI PAGE */
+
+.funzioni_page{
+    background-color: #ceb4ff;
+
+    padding-bottom: 5rem;
+}
+
+.funzioni_page .partner_content{
+    padding-left: 0;
+    width:50%;
+    margin-right: 10%;
+}
+
+.funzioni_page .partner_content h1{
+    color: #61082b;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.funzioni_page .partner_img{
+    width: 40%;
+}
+.funzioni_page .btn_modifier_light{
+    border: none;
+}
+
+.funzioni-sec{
+    margin-bottom: 2rem;
+}
+
+.funzioni-sec  h3{
+
+    margin-bottom: 3rem;
+
+
 }
