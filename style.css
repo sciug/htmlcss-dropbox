@@ -95,12 +95,24 @@ HEADER
 
 }
 
+.sx_nav ul li {
+    margin-left: 2rem;
+} 
+.dx_nav ul li {
+    margin-right: 2rem;
+}
 
 
 .header_content_right{
     text-align: right;
 
 }
+
+
+
+
+/* HEADER - DROPDOWN MENU/ */
+
 
 .dropdown{
     position: relative;
@@ -135,12 +147,8 @@ HEADER
   }
 
 
-.sx_nav ul li {
-    margin-left: 2rem;
-} 
-.dx_nav ul li {
-    margin-right: 2rem;
-}
+/* HEADER - DROPDOWN MENU/ */
+
 
 
 .btn{
@@ -285,9 +293,6 @@ border: 1px solid rgb(196, 196, 196);
 .business_plan_quantity p{
     font-weight: 600;
 }
-
-
-
 
 
 .business_plan_type{
