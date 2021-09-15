@@ -521,67 +521,57 @@ background-image: url(./img/hearst_corp.svg);}
 .little_square{
 width:50%;
 float: left;
-height: 50%;}
+height: 50%;
+background-repeat: no-repeat;
+background-size: 100px;
+background-position: center;}
 
 .squareOne{background-color: #a2d39b;
     background-image: url(./img/designit.svg);
-    background-repeat: no-repeat;
-    background-size: 150px;
-    background-position: center;
-}
+    
+    background-size: 150px;}
+   
 
 .squareTwo{
     background-color: #61082b;
     background-image: url(./img/arizona_state_university.svg);
-    background-repeat: no-repeat;
+    
     background-size: 120px;
-    background-position: center;
 }
+    
 
 .squareThree{
     background-color: #0093ce;
     
     background-image: url(./img/florida.svg);
-    background-repeat: no-repeat;
     background-size: 150px;
-    background-position: center;
 }
   
 
 .squareFour{background-color: #ff1c1c;
     background-image: url(./img/topps.svg);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-position: center;
+    
 }
 
 .squareFive{
     background-color:#d5001f;
     background-image: url(./img/world_bicycle_relief.svg);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-position: center;
+    
 }
 .squareSix{
     background-color: #b4d0e7;
     background-image: url(./img/hearst_corp.svg);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-position: center;
+    
 }
 .squareSeven{
     background-color: #0d2481;
     background-image: url(./img/lonely_planet.svg);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-position: center;
+    
 }
 .squareEight{
     background-color: #ffd830;
     background-image: url(./img/clear_channel.svg);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-position: center;
+    
 }
 
 
@@ -625,7 +615,7 @@ height: 50%;}
 
 .questions{
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 .questions_title{
     font-size:1.8rem;
@@ -704,4 +694,35 @@ cursor: pointer;}
     font-size: .75rem;
     color: white;
     text-decoration: none;
+}
+
+
+
+.footer_nav .fa-globe-americas, .footer_language{
+    display: inline-block;
+}
+
+.footer_language{
+    opacity:60%;
+}
+
+ .fa-globe-americas{
+     opacity: 70%;
+     font-size: .9rem;
+     margin-right: 3px;
+ }
+
+
+
+.fa-sort-up{
+    vertical-align: bottom;
+}
+
+
+.footer_nav{
+    font-size: .7rem;
+    width: 130px;
+    border-top: 1px solid white;
+    padding-top: 3rem;
+    margin-top: 6rem;
 }
