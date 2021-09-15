@@ -17,7 +17,10 @@ html{
 
 img{width: 100%;}
 
+.btn:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
+}
 
 /********************
 HEADER 
@@ -289,11 +292,22 @@ border: 1px solid rgb(196, 196, 196);
     padding: 1.5rem;
 }
 
+.business_plan_type .info .fas{
+    font-size: .8rem;
+    
+}
+
+.business_plan_type .info .fas::before{
+    vertical-align: sub;
+}
+
+
 .business_plan_type_info h3{
     font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: 1rem;
 }
+
 
 .business_plan_type_info h4{
     font-weight: 800;
@@ -727,6 +741,12 @@ cursor: pointer;}
     color: white;
     text-decoration: none;
 }
+
+.footer_info ul li a:hover{
+    
+    text-decoration: underline;
+}
+
 
 
 
