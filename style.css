@@ -16,9 +16,6 @@ img{width: 100%;}
 
 
 
-
-
-
 /********************
 HEADER 
 *******************/
@@ -169,11 +166,19 @@ HERO SEC
 /********************
 BUSINESS SEC 
 *******************/
-.business{
+.width_60{
     width:60%;
     margin:auto;
     margin-bottom: 0;
 }
+
+.margin-top{
+    margin-top: 10rem;
+}
+
+
+
+
 .business_title{
     font-size:2.2rem;
     font-weight: 800;
@@ -272,9 +277,6 @@ border: 1px solid rgb(196, 196, 196);
     margin-bottom: 2rem;
 }
 
-
-.business_plan_services_info .info p{ 
-}
 
 
 .call_to_action_try p{margin-top: 1rem;
@@ -379,6 +381,9 @@ operation SEC
 
 */
 
+
+
+
 .operations{
     margin-top: 5rem;
 }
@@ -426,6 +431,11 @@ TEAMS SEC
 .teams .business_title{ 
     width: 530px;
 }
+
+.clients{
+    margin-top: 4rem;
+}
+
 /* square{
     width: 16%;
     height: 243px;
@@ -514,16 +524,67 @@ float: left;
 height: 50%;}
 
 .squareOne{background-color: #a2d39b;
+    background-image: url(./img/designit.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
 }
 
 .squareTwo{
     background-color: #61082b;
+    background-image: url(./img/arizona_state_university.svg);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: center;
 }
-.squareThree{background-color: #d5001f;
-  }
 
-.squareFour{background-color: #0093ce;
+.squareThree{
+    background-color: #0093ce;
+    
+    background-image: url(./img/florida.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
 }
+  
+
+.squareFour{background-color: #ff1c1c;
+    background-image: url(./img/topps.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+.squareFive{
+    background-color:#d5001f;
+    background-image: url(./img/world_bicycle_relief.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+.squareSix{
+    background-color: #b4d0e7;
+    background-image: url(./img/hearst_corp.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+.squareSeven{
+    background-color: #0d2481;
+    background-image: url(./img/lonely_planet.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+.squareEight{
+    background-color: #ffd830;
+    background-image: url(./img/clear_channel.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+
 
 
 
@@ -533,7 +594,7 @@ height: 50%;}
     background-color: hsl(207deg 52% 81%);
 }
 
-.free_trail .business{
+.free_trail .width_60{
     padding:6rem 0;}
 
 
@@ -552,6 +613,14 @@ height: 50%;}
     color: #181818;
     font-weight: 700;
 }
+
+
+
+
+
+
+
+
 
 
 .questions{
@@ -611,6 +680,7 @@ cursor: pointer;}
 #site_footer{
     color: white;
     background-color: #000000;
+    padding: 6rem 0rem;
 }
 
 .footer_info{
@@ -620,6 +690,7 @@ cursor: pointer;}
 
 .footer_info h4{
     margin-bottom: 1rem;
+    font-size: 1.3rem;
 }
 
 .footer_info ul{
