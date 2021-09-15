@@ -282,6 +282,27 @@ BUSINESS SEC
     margin-bottom: 2rem;
 }
 
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
 
 .label{margin-right: 2rem;}
@@ -307,6 +328,7 @@ border: 1px solid rgb(196, 196, 196);
 .buy_now{
     color: #0061ff;
 }
+
 
 
 
@@ -744,6 +766,7 @@ cursor: pointer;}
 
 .answer:hover .answer_text{
     display:block;
+    max-width: 700px;
 }
 .answer:hover .answer_title{
     margin-bottom: 1rem;
