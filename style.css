@@ -1188,4 +1188,24 @@ cursor: pointer;}
     fill: currentColor;
 
 }
-                
+ 
+
+
+
+.clients_page .free_trail {
+    background-color: #0d2481;
+}
+
+.clients_page .free_trail .business_title{
+    color: #fcd531;
+}
+.clients_page .free_trail .free_trail_btn .btn{
+    font-weight: 400;
+}
+
+.clients_page .free_trail .free_trail_btn p{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    margin-top: 2rem;
+}
