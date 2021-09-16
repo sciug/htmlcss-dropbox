@@ -265,6 +265,10 @@ BUSINESS SEC
     margin-bottom: 0;
 }
 
+.smaller_margin_top{
+    margin-top: 6rem;
+}
+
 .margin-top{
     margin-top: 10rem;
 }
@@ -892,6 +896,8 @@ cursor: pointer;}
 
 /* STORIE DI CLIENTI - page */
 
+
+
 .clients_page .hero_sec{
     background-image: url(./img/dropbox_img.jpg);
     background-repeat: no-repeat;
@@ -903,4 +909,126 @@ cursor: pointer;}
     padding-top: 20rem;
     padding-bottom: 10rem;
     margin-top: 3rem;
+}
+
+.clients_page .clients_title{
+    width:50%;
+    margin-right: 10%;
+}
+
+.clients_page .clients_text{
+    width: 40%;
+    line-height:1.7rem;
+}
+
+.grid{
+    display: grid;
+    grid-template: 60px 60px 60px 60px/ repeat(5, auto);
+    row-gap:5rem;
+}
+
+.grid img{
+    width: 90%;
+    height: 90%;
+    justify-self: center;
+    align-self: center;
+}
+
+.grid .png_img{
+    width: 50%;
+    height: unset;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex_margin{
+    margin:0 1.5rem;
+}
+
+.flex h2{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+
+}
+
+.flex h2 span{
+    font-size: 1rem;
+}
+
+.flex p{
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-weight: 300;
+}
+
+
+.clients_page .smaller_margin_top.background{
+    background-color: #fafafa;
+}
+
+
+.grid_list{
+    list-style: none;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    border-bottom: 2px solid #707070;
+}
+
+.grid_list li{
+    margin-right: 2rem;
+    padding-bottom: 1.5rem;
+    color: #707070;
+}
+
+.grid_list li:hover{
+    color: #181818;
+    border-bottom: 2px solid #181818;
+    cursor: pointer;
+}
+
+
+
+.second_grid{
+    display: grid;
+    grid-template: 3rem auto 2.5rem auto 3rem / 500px auto;
+    column-gap: 5rem;
+}
+
+.second_grid_img{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    height:300px;
+  
+}
+
+
+
+.second_grid_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+   filter: brightness(.7);
+}
+
+.fa-play-circle{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    font-size: 5rem;
+    justify-self: center;
+    align-self: center;
+    z-index: 1;
+    color: white;
+    fill: currentColor;
+
+}
+
+.second_grid_text{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    align-self: center;
+
+
 }
