@@ -1244,7 +1244,6 @@ cursor: pointer;}
 
 .price_table{width: 100%;
     border-collapse: collapse;
-border: 1px solid #e7e7e8;
 }
 
 .price_table thead tr:nth-of-type(1){
@@ -1253,12 +1252,29 @@ border: 1px solid #e7e7e8;
 .price_table thead tr th{
     border-left: #e7e7e8 1px solid;
 }
-.price_table thead tr th:nth-of-type(1){
-    border: none;
+
+
+
+.price_table thead .grid_item_empty_first{
+border: none;
 }
+
+.grid_item_m, .grid_item_l{
+    border-top: #e7e7e8 1px solid;
+}
+
+
+
 .price_table tr, .price_table th {
     border-collapse: collapse;
 }
+
+.price_table tr{
+    border-right:#e7e7e8 1px solid ;
+
+}
+
+
 
 .price_table tr{
     display: flex;
@@ -1324,6 +1340,8 @@ th.grid_item_standard .btn, th.grid_item_standard_big .btn{
 
 .price_table tbody .funzioni_row {
     border-bottom: 1px solid #e7e7e8;
+    border-left: 1px solid #e7e7e8;
+    
     min-height: 50px;
     align-items: center;
     justify-content: center;
