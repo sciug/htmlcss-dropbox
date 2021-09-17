@@ -1214,24 +1214,44 @@ cursor: pointer;}
 
 /* PIANI E PREZZI PAGE */
 
+
+
 .width_80{
     width:80%;
     margin:auto;
-    margin-top: 15rem;
+    margin-top: 6rem;
+}
+
+.pianiPrezzi h1{
+    font-size:2.5rem ;
 }
 
 
+.price_table tbody{
+    margin-top:20rem;
+}
+
+.price_table_wrapper{
+    margin-top: 5rem;
+}
+
+
+.price_table thead{
+    
+    background-color: white;
+}
 
 
 .price_table{width: 100%;
     border-collapse: collapse;
-border: 1px solid #707070;}
+border: 1px solid #e7e7e8;
+}
 
 .price_table thead tr:nth-of-type(1){
-    border-bottom: 1px solid #707070;}
+    border-bottom: 1px solid #e7e7e8;}
 
 .price_table thead tr th{
-    border-left: #707070 1px solid;
+    border-left: #e7e7e8 1px solid;
 }
 .price_table thead tr th:nth-of-type(1){
     border: none;
@@ -1252,6 +1272,7 @@ border: 1px solid #707070;}
     text-align: center;
     justify-content: center;
 }
+
 
 
 
@@ -1291,14 +1312,64 @@ th.grid_item_standard .btn, th.grid_item_standard_big .btn{
     margin-top: 1rem;
 }
 
-.price_table tbody .funzioni_row h2{
-    font-size: 1.3rem;
-    font-weight: 500;
+/* T BODY */
 
+
+.price_table tbody .grid_item_standard_big, .price_table tbody .grid_item_standard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 .price_table tbody .funzioni_row {
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid #e7e7e8;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
 }
 .price_table tbody .funzioni_row:nth-of-type(1){
-    border-top: 1px solid #707070;
+    border-top: 1px solid #e7e7e8;
+    align-items: center;
+
 }
+
+.price_table tbody .funzioni_row_left{
+    justify-content: left;
+}
+
+.price_table tbody .funzioni_row td{
+    border-left: 1px solid #e7e7e8;
+    height: 80px;
+}
+
+.price_table tbody .funzioni_row td:nth-of-type(1){
+    border-left: none;
+}
+
+.price_table tbody .funzioni_row .title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    height: unset;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+
+}
+
+.funzioni_row td:first-child{
+    padding-left: 2rem;
+    text-align: left;
+    justify-content:left;
+    font-size: .9rem;
+}
+
+.fa-info-circle{
+    margin:0 1rem 0 1rem;
+    color: #dad8d8;
+}
+
+
+
+
+ .funzioni_row td.spaceBetween{
+    justify-content: space-between;}
