@@ -1209,3 +1209,68 @@ cursor: pointer;}
     text-decoration: underline;
     margin-top: 2rem;
 }
+
+
+
+/* PIANI E PREZZI PAGE */
+
+.width_80{
+    width:80%;
+    margin:auto;
+    margin-top: 15rem;
+}
+
+
+
+
+.price_table{width: 100%;
+    border-collapse: collapse;
+border: 1px solid #707070;}
+
+.price_table thead tr:nth-of-type(1){
+    border-bottom: 1px solid #707070;}
+
+.price_table thead tr th{
+    border-left: #707070 1px solid;
+}
+.price_table thead tr th:first{
+    border: none;
+}
+.price_table tr, .price_table th {
+    border-collapse: collapse;
+}
+
+.price_table tr{
+    display: flex;
+}
+
+.grid_item_empty, .grid_item_m, .grid_item_l{
+    font-weight: 400;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.grid_item_empty{
+    width:20%;
+    
+}
+.grid_item_m{
+    width: 35%;
+    
+}
+.grid_item_l{
+    width: 45%;
+}
+
+.grid_item_standard_big{
+    width:17.5%;
+}
+.grid_item_standard{
+    width: 15%;
+   
+}
